@@ -14,7 +14,15 @@ I'm also running the latest version of GraalVM, 22.3.2.
 
 - JVM memory footprint is much better.
 - GRAALVM_QUICK_BUILD saves time on this example
-- The native images are even smaller than before
+- The native images are even smaller than before, 9MB! for a Spring Boot 3.1.0 application!
+
+![screenshot](./screenshot.png)
+
+### I couldn't believe it, so I shut everything else down and ran it again.
+
+![retry](./screenshot2.png)
+>6MB?!?!
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
